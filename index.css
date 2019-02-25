@@ -1,0 +1,181 @@
+body {
+    margin: auto;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+/*Navigation Bar*/
+
+#navbar {
+    background-color: white;
+    text-align: center;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#navbar ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*Landing Page*/
+
+#introduction {
+    color: black;
+    text-align: center;
+    min-width: 300px;
+    height: 380px;
+}
+
+#introduction h1 {
+    padding-top: 80px;
+}
+
+.button {
+    background-color: grey;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Main Page*/
+
+.content h2 {
+    background-color: lightgrey;
+}
+
+/*About Me*/
+#aboutme {
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*Portfolio Section*/
+
+.portimages {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    background-color: lightsalmon;
+    color: white;
+}
+
+footer h2 {
+    text-transform: uppercase;
+}
+
+footer .socialmedia {
+    height: 30px;
+    width: 30px;
+}
+
+/*Ipad Screens*/
+
+@media only screen and (min-width: 768px) {
+    /*body {
+       background-color: green;
+    }*/
+
+    main {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    #introduction {
+        color: black;
+        text-align: center;
+        min-width: 768px;
+        height: 570px;
+        padding: 0;
+        border: 2px solid black;
+    }
+
+    #introduction h1 {
+        padding-top: 200px;
+        font-size: 60px;
+    }
+}
+
+/*Desktop Screens*/
+
+@media only screen and (min-width: 1024px) {
+    /*body {
+        background-color: yellow;
+    }*/
+
+    main {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    #introduction {
+        color:black;
+        text-align: center;
+        min-width: 900px;
+        height: 580px;
+        padding: 50px;
+        border: 2px solid black;
+    }
+    
+    #introduction h1 {
+        padding-top: 200px;
+        font-size: 75px;
+    }
+
+    .portdisplay {
+        width: 33%;
+        height: auto;
+        margin: 0;
+        padding: 1px;
+        float: left;
+    }
+
+    footer {
+        clear: both;
+    }
+
+}
