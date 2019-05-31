@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <title>Online Portfolio</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Charlene Mophethe</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow|Londrina+Solid|Open+Sans" rel="stylesheet">
+</head>
+<body>
         <!--Contact Page-->
         <!--Navigation Bar-->
-        <header class="header">
-                <nav class="nav-bar">
+        <header class="container">
+            <nav>
+                <input type="checkbox" id="nav" class="hidden">
+                <label for="nav" class="nav-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </label>
+                <div class="nav-wrapper">
                     <ul>
-                    <span><li class="nav-items"><a href="index.html" class="nav-links">Home</a></li></span>
-                    <span><li class="nav-items"><a href="aboutme.html" class="nav-links">About</a></li></span>
-                    <span><li class="nav-items"><a href="portfolio.html" class="nav-links">Portfolio</a></li></span>
-                    <span><li class="nav-items"><a href="contact.html" class="nav-links current-page">Contact</a></li></span>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html" class="current-page">Contact</a></li>
                     </ul>
-                </nav>
+                </div>
+            </nav>
         </header>
-        
-        <section>
-            <!--Contact page heading and sub-heading -->
-            <div class="contact-text-box">
-                <h1 class="contact-heading">
-                    <span class="contact-main">Contact Me</span>
-                    <span class="contact-sub">Get in touch</span>
-                </h1>
-            </div>
 
-            <div class="contact-introduction">
-                    <p><img src="css/images/email.png"  alt="email-logo" class="contact-icon"> <strong>Email:</strong>email.address@email.com/p>
-                    <p><img src="css/images/telephone.png"  alt="telephone-logo" class="contact-icon"> <strong>Cellphone:</strong> 098 765 4321</p>
-                    <p><img src="css/images/map.png"  alt="location-pin-logo" class="contact-icon"> <strong>Location:</strong> Earth</p>
-            </div>
+        <section class="contact-info">
+            <h1 id="contact-header">Get In Touch</h1>
+            <div class="contact-background">
+                <ul>
+                    <li><img src="images/email-2.png" class="social-icon-1">Email: mophethec@gmail.com</li>
+                    <li><a href="https://www.linkedin.com/in/charlene-mophethe-524250107/" class="social-btn"><img src="images/linkedin.png" class="social-icon"> Linkedin</a></li>
+                    <li><a href="https://www.instagram.com/isthischarlene/" class="social-btn"><img src="images/instagram.png" class="social-icon"> Instagram</a></li>
+                    <li><a href="https://twitter.com/isthischarlene" class="social-btn"><img src="images/twitter.png" class="social-icon"> Twitter</a></li>
+                </ul>
+            </div>  
         </section>
+
     </body>
 </html>

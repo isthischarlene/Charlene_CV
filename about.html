@@ -1,55 +1,49 @@
 <!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <title>Online Portfolio</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <!--About Me Page-->
-        <!--Navigation Bar-->
-        <header class="header">
-                <nav class="nav-bar">
-                    <ul>
-                    <span><li class="nav-items"><a href="index.html" class="nav-links">Home</a></li></span>
-                    <span><li class="nav-items"><a href="aboutme.html" class="nav-links current-page" >About</a></li></span>
-                    <span><li class="nav-items"><a href="portfolio.html" class="nav-links">Portfolio</a></li></span>
-                    <span><li class="nav-items"><a href="contact.html" class="nav-links">Contact</a></li></span>
-                    </ul>
-                </nav>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Charlene Mophethe</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Londrina+Outline|Londrina+Solid|Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
+</head>
+<body>
+     <!--Navigation Bar-->
+     <header class="container">
+            <nav>
+                <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html" class="current-page">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
         </header>
+
+        <section class="wrapper">
+            <h1 id="about-header">About Me</h1>
+                <article class="aside aside-1">
+                    <img src="images/about.jpg" alt="picture of charlene" id="about-image">
+                </article>
+
+                <aside class="aside aside-2">
+                    <h2>~ Short Bio ~</h2>
+                    <p>Charlene Mophethe is an aspiring web developer with a background in televsion. She previously worked as an assistant production manager on national television shows such as <i>Hectic Nine-9, My Night,</i> and <i>Showville</i>. She holds a undergraduate degree in English and Film as well as a Post-Graduate Diploma in Management in Marketing from the University of Cape Town. Outside of work, Charlene enjoys a good Netflix binge, cooking, running, and re-reading all the Harry Potter books.</p>
+            
+                    <p>For more on my work experience, please see my <a href="https://www.linkedin.com/in/charlene-mophethe-524250107/">linkedin page</a>.</p>
+                </aside>
+
+        </section>
         
-        <section>
-            <!--About Me Page Heading and Sub-Heading-->
-                <div class="about-text-box">
-                    <div>
-                        <h1 class="about-heading">
-                            <span class="about-main">About Me</span>
-                            <span class="about-sub">The story so far...</span>
-                        </h1>
-                    </div> 
-                </div>
-                <!--About Me Page Short Bio Paragraph-->
-                <div class="about-introduction">
-                    <div id="about-bio">
-                        <h3>- Bio -</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac condimentum nisi. Nullam auctor id lectus sed efficitur. Proin vestibulum feugiat metus a finibus. Nunc ante tortor, elementum in tempus id, aliquam sed est. Proin vitae elit orci. Etiam imperdiet eget felis et laoreet. Phasellus condimentum faucibus est, sed venenatis nisl convallis eu. Nullam vestibulum egestas placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed tortor eleifend, tempor velit a, finibus lacus. Donec quis metus faucibus mauris tempus hendrerit a at risus.</p>
-
-                        <p>For more on my work experience, please see my <a href="#">linkedin page</a>.</p>
-                    </div>
-
-                    <!--List of Skills Icons-->
-                    <div class="about-skills">
-                        <h3>- Skills -</h3>
-                            <a href="#"><img src="css/images/html.png" alt="html5-logo" class="skills-icon"></a>
-                            <a href="#"><img src="css/images/css.png" alt="css3-logo" class="skills-icon"></a>
-                            <a href="#"><img src="css/images/javascript.png" alt="javascript-logo" class="skills-icon"></a>
-                            <a href="#"><img src="css/images/php.png" alt="php-logo" class="skills-icon"></a>
-                            <a href="#"><img src="css/images/mysql2.png" alt="mysql-logo" class="skills-icon2"></a>
-                            <a href="#"><img src="css/images/git2.png" alt="git-logo" class="skills-icon2"></a>
-                    </div>
-                </div>
-        </section>   
     </body>
 </html>
